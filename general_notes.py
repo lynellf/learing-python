@@ -18,3 +18,6 @@ messy_list.sort()
 
 # The range function can generate a stream of numbers, counting from zero
 numbered_list = list(range(4)) # [0, 1, 2, 3]
+
+# Enumerating iterables
+list(enumerate('abc')) # [(0, 'a'), (1, 'b'), (2, 'c')]
